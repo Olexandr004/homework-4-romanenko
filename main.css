@@ -1,0 +1,78 @@
+:root {
+    --black: #000;
+    --light-black: #181818;
+    --white: #FFFFFF;
+    --border-btn: 14px;
+    --white-text: #C0C0C0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 133%;
+    background: var(--black);
+    color: var(--white);
+}
+header {
+    background-color: var(--light-black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 15px;
+    color: var(--white);
+}
+
+.header-links p {
+    gap: 24px;
+    font-size: 13px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 11px 20px 13px;
+    background: var(--white);
+    letter-spacing: 0.4px;
+    color: var(--black);
+    border-radius: var(--border-btn);
+    min-width: 155px;
+}
+
+.header-content img {
+    margin-left: 152px;
+}
+
+.header-content button {
+    margin-right: 140px;
+}
+
+
+
