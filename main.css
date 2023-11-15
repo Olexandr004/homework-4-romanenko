@@ -74,5 +74,46 @@ header {
     margin-right: 140px;
 }
 
+.sec-1 {
+    background: url("./img/backgroung-sec-1.png");
+    height: 716px;
+}
 
+.content {
+    text-align: center;
+    max-width: 600px;
+    position: absolute;
+    bottom: 60px;
+    left: 430px;
+}
+
+.content p {
+    color: var(--white-text);
+    line-height: 20px;
+}
+
+.content h1 {
+    color: var(--white);
+    font-size: 54px;
+    line-height: 59.4px;
+    margin-top: 1px;
+    margin-bottom: 18px;
+}
+
+.flex {
+    display: flex;
+    position: absolute;
+    bottom: 41px;
+    right: 40px;
+    gap: 16px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.flex img {
+    margin-right: 6px;
+}
+
+.flex span {
+
+}
 
