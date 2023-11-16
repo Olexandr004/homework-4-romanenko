@@ -87,7 +87,8 @@ header {
     max-width: 600px;
     position: absolute;
     bottom: 60px;
-    left: 430px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .content p {
@@ -113,6 +114,7 @@ header {
     line-height: 12px;
     max-height: 16px;
 }
+
 .flex img {
     margin-right: 6px;
 }
@@ -120,4 +122,82 @@ header {
 .flex span {
     margin-bottom: 5px;
 }
+
+.sec-2{
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-2 h2 {
+    font-size: 40px;
+    line-height: 42px;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.sec-2 p {
+    font-size: 23px;
+    line-height: 30px;
+    color: var(--white-text);
+    margin-bottom: 40px;
+}
+
+.action-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    text-align: left;
+}
+.absolute h3 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.absolute p {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white-text);
+    max-width: 501px;
+    margin-top: 10px;
+}
+
+.absolute button {
+    color: var(--black);
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    border-radius: 14px;
+    background: var(--white);
+    padding: 9px 10px 13px 42px;
+    position: relative;
+}
+
+.absolute button::before {
+    content: url("./img/Frame.svg");
+    position: absolute;
+    left: 4px;
+    top: 5px;
+}
+
+.paragraph p {
+    max-width: 514px;
+}
+
+
+
 
