@@ -104,23 +104,35 @@ header {
     margin-bottom: 18px;
 }
 
-.flex {
-    display: flex;
+.content-right {
     position: absolute;
     bottom: 41px;
     right: 40px;
-    gap: 16px;
+    max-height: 16px;
     font-size: 12px;
     line-height: 12px;
-    max-height: 16px;
 }
 
-.flex img {
-    margin-right: 6px;
+.flex {
+    display: flex;
+    gap: 16px;
 }
 
-.flex span {
-    margin-bottom: 5px;
+.flex-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1 img {
+    padding-right: 6px;
+}
+
+.flex-1 p {
+    padding-bottom: 4px;
+}
+
+.flex:first-child {
+    padding-left: 15px;
 }
 
 .sec-2{
