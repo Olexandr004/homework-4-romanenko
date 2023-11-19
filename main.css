@@ -212,6 +212,31 @@ header {
     max-width: 514px;
 }
 
+.sec-3 {
+    background: url("./img/background-sec-3.png");
+    height: 600px;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 100px;
+}
+
+.content-sec-3 {
+    position: absolute;
+    top: 280px;
+    right: 62px;
+    max-width: 298px;
+}
+
+.sec-3 h3 {
+    letter-spacing: 2px;
+    color: var(--white);
+}
+
+.sec-3 p {
+    color: var(--white-text);
+}
+
 
 
 
