@@ -80,6 +80,7 @@ header {
     top: 90px;
     background: url("./img/backgroung-sec-1.png");
     height: 716px;
+    margin-bottom: 120px;
 }
 
 .content {
@@ -136,9 +137,9 @@ header {
 }
 
 .sec-2{
-    margin-top: 120px;
-    justify-content: center;
-    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
     text-align: center;
 }
 
@@ -165,6 +166,7 @@ header {
 
 .relative {
     position: relative;
+    max-height: 600px;
 }
 
 .absolute {
