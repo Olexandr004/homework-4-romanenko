@@ -78,7 +78,7 @@ header {
 .sec-1 {
     position: relative;
     top: 90px;
-    background: url("./img/backgroung-sec-1.png");
+    background: url("./img/backgroung-sec-1.png") center center / cover no-repeat;
     height: 716px;
     margin-bottom: 120px;
 }
@@ -213,7 +213,7 @@ header {
 }
 
 .sec-3 {
-    background: url("./img/background-sec-3.png");
+    background: url("./img/background-sec-3.png") center center / cover no-repeat;
     height: 600px;
     position: relative;
     font-size: 14px;
@@ -292,7 +292,7 @@ header {
 }
 
 .sec-5 {
-    background: url("./img/background-sec-5.png");
+    background: url("./img/background-sec-5.png") center center / cover no-repeat;
     height: 600px;
     position: relative;
     line-height: 20px;
