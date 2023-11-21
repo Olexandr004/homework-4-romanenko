@@ -275,24 +275,6 @@ main {
     margin-bottom: 20px;
 }
 
-.container-1 button {
-    color: var(--black);
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    border-radius: 14px;
-    background: var(--white);
-    padding: 9px 10px 13px 42px;
-    position: relative;
-}
-
-.container-1 button::before {
-    content: url("./img/Frame.svg");
-    position: absolute;
-    left: 4px;
-    top: 5px;
-}
-
 .flex-sec-4 {
     display: flex;
     justify-content: space-between;
@@ -374,6 +356,7 @@ main {
     height: 600px;
     width: 100%;
     position: relative;
+    margin-bottom: 113px;
 }
 
 .content-sec-7 {
@@ -390,6 +373,26 @@ main {
 .content-sec-7 p {
     color: var(--white-text);
     max-width: 241px;
+}
+
+.sec-8 {
+    text-align: center;
+    margin-bottom: 108px;
+}
+
+.sec-8 h3 {
+    max-width: 571px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.sec-8 p {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--white-text);
 }
 
 
