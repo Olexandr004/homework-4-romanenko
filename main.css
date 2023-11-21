@@ -67,7 +67,7 @@ header {
     min-width: 155px;
 }
 
-.header-content img {
+.header-content svg {
     margin-left: 152px;
 }
 
@@ -124,12 +124,8 @@ header {
     justify-content: center;
 }
 
-.flex-1 img {
-    padding-right: 6px;
-}
-
-.flex-1 p {
-    padding-bottom: 4px;
+.flex-1 span {
+    padding-left: 6px;
 }
 
 .flex:first-child {
@@ -190,7 +186,7 @@ header {
     margin-top: 10px;
 }
 
-.absolute button {
+.btn-sec-2 {
     color: var(--black);
     font-size: 15px;
     line-height: 20px;
@@ -201,11 +197,20 @@ header {
     position: relative;
 }
 
-.absolute button::before {
-    content: url("./img/Frame.svg");
+.circled{
+    padding: 11px 10px 13px 42px;
+    min-width: 143px;
+    text-align: center;
+}
+
+.circled:before {
+    content: '';
     position: absolute;
     left: 4px;
     top: 5px;
+    background: url("./img/Frame.svg");
+    width: 32px;
+    height: 32px;
 }
 
 .paragraph p {
@@ -288,7 +293,6 @@ header {
 .flex-sec-4 {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .sec-5 {
