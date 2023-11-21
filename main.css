@@ -75,9 +75,12 @@ header {
     margin-right: 140px;
 }
 
+main {
+    margin-top: 90px;
+}
+
 .sec-1 {
     position: relative;
-    top: 90px;
     background: url("./img/backgroung-sec-1.png") center center / cover no-repeat;
     height: 716px;
     margin-bottom: 120px;
@@ -300,6 +303,7 @@ header {
     height: 600px;
     position: relative;
     line-height: 20px;
+    margin-bottom: 120px;
 }
 
 .sec-5 p {
@@ -315,6 +319,53 @@ header {
     position: absolute;
     top: 260px;
     right: 87px;
+}
+
+.sec-6 {
+   background: var(--black);
+}
+
+.container-sec-6 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.content-sec-6{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-sec-6 h3 {
+    color: var(--white);
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+.content-sec-6 p {
+    color: var(--white-text);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.flex-sec-6 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 109px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.flex-sec-6:first-child {
+    padding-left: 46px;
+}
+
+.flex-sec-6:last-child {
+    padding-right: 46px;
 }
 
 
