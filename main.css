@@ -368,6 +368,29 @@ main {
     padding-right: 46px;
 }
 
+.sec-7 {
+    margin-top: 100px;
+    background: url("./img/background-sec-7.png") center center / cover no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.content-sec-7 {
+    position: absolute;
+    top: 250px;
+    right: 106px;
+    line-height: 20px;
+}
+
+.content-sec-7 h3{
+    letter-spacing: 2px;
+}
+
+.content-sec-7 p {
+    color: var(--white-text);
+    max-width: 241px;
+}
 
 
 
