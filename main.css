@@ -81,8 +81,10 @@ main {
 
 .sec-1 {
     position: relative;
-    background: url("./img/backgroung-sec-1.png") center center / cover no-repeat;
-    height: 716px;
+    background: url("./img/backgroung-sec-1.png") lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 716px;
     margin-bottom: 120px;
 }
 
@@ -93,6 +95,11 @@ main {
     bottom: 60px;
     left: 50%;
     transform: translate(-50%);
+}
+
+.sec-1-p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .content p {
@@ -179,6 +186,7 @@ main {
     line-height: 20px;
     letter-spacing: 2px;
     color: var(--white);
+    text-transform: uppercase;
 }
 
 .absolute p {
@@ -186,6 +194,7 @@ main {
     line-height: 20px;
     color: var(--white-text);
     max-width: 501px;
+    max-height: 80px;
     margin-top: 10px;
 }
 
@@ -221,8 +230,10 @@ main {
 }
 
 .sec-3 {
-    background: url("./img/background-sec-3.png") center center / cover no-repeat;
-    height: 600px;
+    background: url("./img/background-sec-3.png") lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
     position: relative;
     font-size: 14px;
     line-height: 20px;
@@ -239,6 +250,7 @@ main {
 .sec-3 h3 {
     letter-spacing: 2px;
     color: var(--white);
+    text-transform: uppercase;
 }
 
 .sec-3 p {
@@ -269,6 +281,7 @@ main {
     color: var(--white-text);
     margin-bottom: 6px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .container-1 p {
@@ -282,8 +295,10 @@ main {
 }
 
 .sec-5 {
-    background: url("./img/background-sec-5.png") center center / cover no-repeat;
-    height: 600px;
+    background: url("./img/background-sec-5.png") lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
     position: relative;
     line-height: 20px;
     margin-bottom: 120px;
@@ -296,6 +311,7 @@ main {
 
 .sec-5 h3 {
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .container-sec-5 {
@@ -326,6 +342,7 @@ main {
     font-size: 40px;
     line-height: 42px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .content-sec-6 p {
@@ -353,9 +370,10 @@ main {
 
 .sec-7 {
     margin-top: 100px;
-    background: url("./img/background-sec-7.png") center center / cover no-repeat;
-    height: 600px;
+    background: url("./img/background-sec-7.png") lightgray 50% / cover no-repeat;
     width: 100%;
+    height: 100%;
+    min-height: 600px;
     position: relative;
     margin-bottom: 113px;
 }
@@ -419,7 +437,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding: 0 18px 129px 0;
-    margin-right: 252px;
+    margin-right: 253px;
 }
 
 .footer-2 {
@@ -436,6 +454,7 @@ footer {
     flex-direction: column;
     gap: 10px;
     line-height: 20px;
+    padding-right: 102px;
 }
 
 .footer-1 p {
@@ -493,6 +512,7 @@ footer {
 .relative-input {
     position: relative;
 }
+
 
 .relative-input input {
     border-radius: 12px;
