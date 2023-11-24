@@ -28,6 +28,7 @@ body {
     background: var(--black);
     color: var(--white);
 }
+
 header {
     background-color: var(--light-black);
     position: fixed;
@@ -475,7 +476,7 @@ footer {
     letter-spacing: 2px;
 }
 
-.footer-3 p {
+.footer-3 a {
     font-size: 13px;
 }
 
