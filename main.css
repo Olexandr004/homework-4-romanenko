@@ -209,7 +209,6 @@ main {
 
 .circled{
     padding: 11px 10px 13px 42px;
-    min-width: 143px;
     text-align: center;
 }
 
@@ -539,6 +538,32 @@ footer {
     bottom: 0;
     right: 0;
 }
+
+.btn:hover{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+a:hover {
+    color: #360202;
+    font-size: 20px;
+}
+
+.btn-sec-2:hover {
+    font-size: 15px;
+}
+
+.btn-sec-2:hover::before {
+    position: absolute;
+    left: 4px;
+    bottom: 5px;
+    background: #360202;
+    border-radius: 50%;
+}
+
 
 
 
