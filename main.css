@@ -72,7 +72,7 @@ header {
     margin-left: 152px;
 }
 
-.header-content button {
+.header-content .btn {
     margin-right: 140px;
 }
 
@@ -136,11 +136,7 @@ main {
 }
 
 .flex-1 span {
-    padding-left: 6px;
-}
-
-.flex:first-child {
-    padding-left: 15px;
+    margin-left: 6px;
 }
 
 .sec-2{
@@ -193,6 +189,7 @@ main {
 .absolute p {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 26px;
     color: var(--white-text);
     max-width: 501px;
     max-height: 80px;
@@ -286,7 +283,7 @@ main {
 }
 
 .container-1 p {
-    margin-bottom: 20px;
+    margin-bottom: 29px;
 }
 
 .flex-sec-4 {
@@ -356,6 +353,7 @@ main {
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 109px;
     padding-bottom: 40px;
     padding-top: 40px;
@@ -409,7 +407,7 @@ main {
 
 .sec-8 p {
     margin-top: 15px;
-    margin-bottom: 22px;
+    margin-bottom: 31px;
     font-size: 24px;
     line-height: 30px;
     color: var(--white-text);
