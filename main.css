@@ -530,18 +530,6 @@ footer {
     background: var(--black);
 }
 
-.footer-contact {
-   margin-top: 56px;
-}
-
-.contact {
-    display: flex;
-    gap: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 .btn:hover{
     width: 200px;
     height: 60px;
@@ -565,6 +553,17 @@ a:hover {
     bottom: 5px;
     background: #360202;
     border-radius: 50%;
+}
+
+.flex-last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
 }
 
 
