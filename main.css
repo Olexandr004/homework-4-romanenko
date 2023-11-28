@@ -540,17 +540,8 @@ footer {
     background: var(--black);
 }
 
-.btn:hover {
-    width: 200px;
-    height: 60px;
-    font-size: 20px;
-    text-align: center;
-
-}
-
 a:hover {
     color: #42505e;
-    font-size: 20px;
 }
 
 .btn-sec-2:hover {
@@ -574,6 +565,10 @@ a:hover {
 .contact {
     display: flex;
     gap: 20px;
+}
+
+.contact svg:hover {
+    fill: #42505e;
 }
 
 
