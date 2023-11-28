@@ -89,7 +89,7 @@ main {
     margin-bottom: 120px;
 }
 
-.content {
+.content-sec-1 {
     text-align: center;
     max-width: 600px;
     position: absolute;
@@ -103,12 +103,12 @@ main {
     letter-spacing: 2px;
 }
 
-.content p {
+.content-sec-1 p {
     color: var(--white-text);
     line-height: 20px;
 }
 
-.content h1 {
+.content-sec-1 h1 {
     color: var(--white);
     font-size: 54px;
     line-height: 59.4px;
