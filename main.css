@@ -263,7 +263,6 @@ main {
 }
 
 .container-1 {
-    height: 314px;
     max-width: 600px;
     padding: 60px 46px 102px 40px;
     margin-left: 60px;
@@ -290,7 +289,14 @@ main {
 .flex-sec-4 {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+    .flex-sec-4 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 .sec-5 {
