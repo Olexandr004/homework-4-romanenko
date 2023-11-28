@@ -139,7 +139,7 @@ main {
     margin-left: 6px;
 }
 
-.sec-2{
+.sec-2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
@@ -178,6 +178,7 @@ main {
     bottom: 30px;
     text-align: left;
 }
+
 .absolute h3 {
     font-size: 14px;
     line-height: 20px;
@@ -207,7 +208,7 @@ main {
     position: relative;
 }
 
-.circled{
+.circled {
     padding: 11px 10px 13px 42px;
     text-align: center;
 }
@@ -268,6 +269,7 @@ main {
     margin-left: 60px;
     margin-top: 113px;
 }
+
 .container-1 h2 {
     font-size: 28px;
     margin-bottom: 14px;
@@ -318,7 +320,7 @@ main {
 }
 
 .sec-6 {
-   background: var(--black);
+    background: var(--black);
 }
 
 .container-sec-6 {
@@ -328,7 +330,7 @@ main {
     padding: 0 16px;
 }
 
-.content-sec-6{
+.content-sec-6 {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
@@ -383,7 +385,7 @@ main {
     line-height: 20px;
 }
 
-.content-sec-7 h3{
+.content-sec-7 h3 {
     letter-spacing: 2px;
 }
 
@@ -500,6 +502,7 @@ footer {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 .footer-column p {
     color: var(--white-text);
     font-size: 13px;
@@ -530,7 +533,7 @@ footer {
     background: var(--black);
 }
 
-.btn:hover{
+.btn:hover {
     width: 200px;
     height: 60px;
     font-size: 20px;
