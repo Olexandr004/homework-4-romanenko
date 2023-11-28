@@ -426,6 +426,7 @@ footer {
 
 .footer-flex {
     display: flex;
+    justify-content: space-around;
     padding-bottom: 36px;
     border-bottom: 2px var(--white) solid;
 }
@@ -450,6 +451,8 @@ footer {
 .footer-3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     gap: 10px;
     line-height: 20px;
     padding-right: 102px;
