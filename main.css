@@ -309,6 +309,7 @@ main {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .sec-5 {
     background: url("./img/background-sec-5.png") lightgray 50% / cover no-repeat;
     width: 100%;
@@ -566,6 +567,14 @@ a:hover {
 
 .contact svg:hover {
     fill: #42505e;
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
 }
 
 
