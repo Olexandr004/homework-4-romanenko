@@ -51,16 +51,50 @@ header {
   padding: 20px 20px 20px 32px;
 }
 
+#burger {
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 1024px) {
+  #burger {
+    display: none;
+  }
+}
+
+#burger:checked ~ .header-links {
+  width: 100%;
+  inset: 0;
+  background: white;
+  color: black;
+  flex-direction: column;
+}
+
 .header-links {
   display: flex;
   align-items: center;
   gap: 32px;
   font-size: 15px;
   color: var(--white);
+  position: absolute;
+  padding-top: 100px;
+  width: 0;
+  right: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  z-index: 1;
 }
 .header-links p {
   margin-right: 24px;
   font-size: 13px;
+}
+@media (min-width: 1024px) {
+  .header-links {
+    padding-top: 0;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    height: auto;
+  }
 }
 
 .btn {
