@@ -29,11 +29,12 @@ body {
   color: var(--white);
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
-
 header {
   background-color: var(--light-black);
   position: fixed;
@@ -54,6 +55,7 @@ header {
 #burger {
   position: relative;
   z-index: 10;
+  display: none;
 }
 @media (min-width: 1024px) {
   #burger {
@@ -61,22 +63,67 @@ header {
   }
 }
 
+.burger-icon {
+  height: 26px;
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.burger-icon .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--white);
+}
+.burger-icon .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+.burger-icon .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+.burger-icon .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .burger-icon .line {
+    display: none;
+  }
+}
+
+#burger:checked ~ .burger-icon .line {
+  background: var(--black);
+  z-index: 10;
+}
+#burger:checked ~ .burger-icon .line.line1 {
+  transform: rotate(45deg);
+}
+#burger:checked ~ .burger-icon .line.line2 {
+  transform: scaleY(0);
+}
+#burger:checked ~ .burger-icon .line.line3 {
+  transform: rotate(-45deg);
+}
+
 #burger:checked ~ .header-links {
   width: 100%;
   inset: 0;
-  background: white;
-  color: black;
   flex-direction: column;
 }
 
 .header-links {
+  background: white;
+  color: black;
   display: flex;
   align-items: center;
   gap: 32px;
   font-size: 15px;
-  color: var(--white);
   position: absolute;
-  padding-top: 100px;
+  padding-top: 20px;
   width: 0;
   right: 0;
   height: 100vh;
@@ -89,6 +136,8 @@ header {
 }
 @media (min-width: 1024px) {
   .header-links {
+    color: var(--white-text);
+    background: none;
     padding-top: 0;
     flex-direction: row;
     position: relative;
