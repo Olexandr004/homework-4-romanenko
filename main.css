@@ -401,9 +401,6 @@ main {
   .flex-sec-4 {
     flex-direction: column;
   }
-  .container-1, .img-abs {
-    width: 100%;
-  }
   .sec-4 .img-abs {
     z-index: 0;
     width: 100%;
@@ -415,7 +412,13 @@ main {
   }
   .container-1 {
     z-index: 1;
-    margin-left: 24px;
+    padding: 60px 60px 40px 60px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .container-1 {
+    width: 100%;
   }
 }
 .sec-5 {
@@ -480,6 +483,17 @@ main {
 }
 .flex-sec-6:last-child {
   padding-right: 46px;
+}
+@media (max-width: 600px) {
+  .flex-sec-6 {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 50px;
+    padding-top: 20px;
+  }
+  .flex-sec-6:last-child {
+    padding-right: 0;
+  }
 }
 
 .sec-7 {
