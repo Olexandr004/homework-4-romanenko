@@ -227,42 +227,63 @@ main {
     color: var(--white-text);
     margin-bottom: 40px;
   }
+  .flex-sec-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 16px;
+   }
 }
 
-.action-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-}
 
-.relative {
+
+.card{
   position: relative;
-  max-height: 600px;
+  display: flex;
+  height: 600px;
+  max-width: calc(50% - 8px);
+  width: 100%;
+  padding: 30px;
+  text-align: left;
+  &:hover {
+    border-radius: 10%;
+  }
 }
 
-.absolute {
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
-  text-align: left;
-  h3{
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    color: var(--white);
-    text-transform: uppercase;
-  }
-  p{
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 26px;
-    color: var(--white-text);
-    max-width: 501px;
-    max-height: 80px;
-    margin-top: 10px;
-  }
+.card-1{
+  background: url("./img/img-sec-2.png") center center / cover no-repeat ;
 }
+
+.card-2 {
+  background: url("./img/img-sec-2(2).png") center center / cover no-repeat ;
+}
+
+.card-3 {
+  background: url("./img/img-sec-2(3).png") center center / cover no-repeat ;
+}
+
+.card-4 {
+  background: url("./img/img-sec-2(4).png") center center / cover no-repeat ;
+}
+
+.content-sec-2 {
+  align-self: flex-end;
+  h3{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+  p{
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 26px;
+   color: var(--white-text);
+ }
+}
+
 
 .btn-sec-2 {
   color: var(--black);
@@ -296,8 +317,10 @@ main {
   }
 }
 
-.paragraph p{
-  max-width: 514px;
+@media (max-width: 1024px) {
+  .card {
+    max-width: 100%;
+  }
 }
 
 .sec-3 {
