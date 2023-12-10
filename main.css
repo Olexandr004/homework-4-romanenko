@@ -586,7 +586,6 @@ footer {
 .footer-3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
   gap: 10px;
   line-height: 20px;
@@ -608,7 +607,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.footer-flex-2 input {
+
+input {
   width: 458px;
   height: 52px;
 }
@@ -662,6 +662,47 @@ a:hover {
 }
 .contact svg:hover {
   fill: #42505e;
+}
+
+@media (max-width: 767px) {
+  .footer-flex {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer-flex-2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-1 {
+    margin-right: 200px;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  .footer-flex {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .footer-1 {
+    margin-right: 0;
+    padding: 0;
+  }
+  .footer-2 {
+    margin-right: 0;
+    padding: 0;
+  }
+  .footer-3 {
+    padding: 0;
+  }
+  .relative-input input {
+    width: 290px;
+  }
+  .flex-last {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
