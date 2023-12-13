@@ -716,5 +716,10 @@ a:hover {
     align-items: center;
   }
 }
+@media (max-width: 400px) {
+  .content-sec-3, .container-sec-5, .content-sec-7 {
+    left: 20px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

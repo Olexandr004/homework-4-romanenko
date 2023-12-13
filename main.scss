@@ -769,6 +769,12 @@ footer {
     }
   }
 
+.content-sec-3, .container-sec-5, .content-sec-7 {
+  @media (max-width: 400px) {
+    left: 20px;
+  }
+}
+
 
 
 
