@@ -516,7 +516,7 @@ main {
 .flex-sec-6:last-child {
   padding-right: 46px;
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .flex-sec-6 {
     flex-wrap: wrap;
     margin: 0 auto;
